@@ -87,10 +87,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Granite</h2>
+          <h2>Kitchen</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Granite</li>
+            <li>Kitchen</li>
           </ol>
         </div>
 
@@ -100,30 +100,33 @@
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="about-us">
       <div class="container">
-
         <div class="row no-gutters">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" id="change_image" data-aos="fade-right">
-            <img style="min-height: 400px; width: 550px;" src="assets/img/granite/design/image_design/design.png" alt="design">
+            <img style="min-height: 400px; width: 550px;" src="assets/img/kitchen/design/kitchen.png" alt="design">
           </div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">ENVISION YOUR BATHROOM</h3>
+              <h3 data-aos="fade-up">Virtual Kitchen Design</h3>
               <p data-aos="fade-up">
                 Visualize backsplash, wall tile and floor tile options in this modern bathroom setting. Use this quick tool to mix and match your choice of colors to visualize the ideal bathroom. With a simple click-email, print, or save your favorites to help in making final selections. New colors will be added weekly.
               </p>
               <div class="row">
                 <h4 style="margin-top: 10px;">Select Options</h4>
-                <div class="col-md-4 icon-box" data-aos="fade-up">
-                    <h4 class="text_slide" STY> BackSplash: </h4>
-                  <img src="assets/img/granite/1.jpg" alt="image_1">
+                <div class="col-md-3 icon-box" data-aos="fade-up">
+                    <h4 class="text_slide" STY> Countertop: </h4>
+                  <img src="assets/img/kitchen/countertops/1.jpg" onclick="display(1)" alt="image_1">
                 </div>
-                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <h4 class="text_slide"> Wall Tile: </h4>
-                    <img src="assets/img/granite/2.jpg" alt="image_2">
+                <div class="col-md-3 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text_slide"> Backsplash </h4>
+                    <img src="assets/img/kitchen/backsplash/1.jpg" onclick="display(5)" alt="image_2">
                 </div>
-                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <h4 class="text_slide"> Floor Tile: </h4>
-                    <img src="assets/img/granite/3.jpg" alt="image_3">
+                <div class="col-md-3 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text_slide"> Cabinet Color: </h4>
+                    <img src="assets/img/kitchen/cabinet/1.jpg" onclick="display(9)" alt="image_3">
+                </div>
+                <div class="col-md-3 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text_slide"> Floor: </h4>
+                    <img src="assets/img/kitchen/floor/1.jpg" onclick="display(13)" alt="image_4">
                 </div>
               </div>
             </div><!-- End .content-->
@@ -147,25 +150,25 @@
                 <ul class="nav nav-tabs flex-column">
                   <li class="nav-item">
                     <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                      <h4 class="heading_effect">Backsplash</h4>
+                      <h4 class="heading_effect">Countertop</h4>
                     </a>
                   </li>
                   <li class="nav-item mt-2">
                     <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
                       <h4 class="heading_effect">
-                        Wall Tile</h4>
+                      Backsplash</h4>
                     </a>
                   </li>
                   <li class="nav-item mt-2">
                     <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                      <h4 class="heading_effect">Floor Tile</h4>
+                      <h4 class="heading_effect">Cabinet Color</h4>
                     </a>
                   </li>
-                  <!-- <li class="nav-item mt-2">
+                  <li class="nav-item mt-2">
                     <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                      <h4 style="color: #f03c02;">Nostrum qui quasi</h4>
+                      <h4>Floor</h4>
                     </a>
-                  </li> -->
+                  </li>
                 </ul>
               </div>
               <div class="col-lg-7 ml-auto" data-aos="fade-left" data-aos-delay="100">
@@ -174,16 +177,16 @@
                     <div class="container">
                        <div class="row">
                           <div class="col-md-3">
-                            <img src="assets/img/granite/design/1.jpg" alt="" onclick="display(1)" class="img-fluid">
+                            <img src="assets/img/kitchen/countertops/1.jpg" alt="" onclick="display(1)" class="img-fluid">
                           </div>
                           <div class="col-md-3">
-                            <img src="assets/img/granite/design/2.jpg" alt="" onclick="display(2)"  class="img-fluid">
+                            <img src="assets/img/kitchen/countertops/2.jpg" alt="" onclick="display(2)"  class="img-fluid">
                          </div>
                          <div class="col-md-3">
-                            <img src="assets/img/granite/design/3.jpg" alt="" onclick="display(3)" class="img-fluid">
+                            <img src="assets/img/kitchen/countertops/3.jpg" alt="" onclick="display(3)" class="img-fluid">
                          </div>
                          <div class="col-md-3">
-                            <img src="assets/img/granite/design/4.jpg" alt="" onclick="display(4)" class="img-fluid">
+                            <img src="assets/img/kitchen/countertops/4.jpg" alt="" onclick="display(4)" class="img-fluid">
                          </div>
                        </div>
                     </div>
@@ -192,16 +195,16 @@
                     <div class="container">
                         <div class="row">
                            <div class="col-md-3">
-                             <img src="assets/img/granite/design/wall/1.jpg" alt="" onclick="display(5)" class="img-fluid">
+                             <img src="assets/img/kitchen/backsplash/1.jpg" alt="" onclick="display(5)" class="img-fluid">
                            </div>
                            <div class="col-md-3">
-                             <img src="assets/img/granite/design/wall/2.jpg" alt="" onclick="display(6)" class="img-fluid">
+                             <img src="assets/img/kitchen/backsplash/2.jpg" alt="" onclick="display(6)" class="img-fluid">
                           </div>
                           <div class="col-md-3">
-                             <img src="assets/img/granite/design/wall/3.jpg" alt="" onclick="display(7)" class="img-fluid">
+                             <img src="assets/img/kitchen/backsplash/3.jpg" alt="" onclick="display(7)" class="img-fluid">
                           </div>
                           <div class="col-md-3">
-                             <img src="assets/img/granite/design/wall/4.jpg" alt="" onclick="display(8)" class="img-fluid">
+                             <img src="assets/img/kitchen/backsplash/4.jpg" alt="" onclick="display(8)" class="img-fluid">
                           </div>
                         </div>
                      </div>
@@ -210,25 +213,38 @@
                     <div class="container">
                       <div class="row">
                          <div class="col-md-3">
-                           <img src="assets/img/granite/design/floor/1.jpg" alt="" onclick="display(9)" class="img-fluid">
+                           <img src="assets/img/kitchen/cabinet/1.jpg" alt="" onclick="display(9)" class="img-fluid">
                          </div>
                          <div class="col-md-3">
-                           <img src="assets/img/granite/design/floor/2.jpg" alt="" onclick="display(10)" class="img-fluid">
+                           <img src="assets/img/kitchen/cabinet/2.jpg" alt="" onclick="display(10)" class="img-fluid">
                         </div>
                         <div class="col-md-3">
-                           <img src="assets/img/granite/design/floor/3.jpg" alt="" onclick="display(11)" class="img-fluid">
+                           <img src="assets/img/kitchen/cabinet/3.jpg" alt="" onclick="display(11)" class="img-fluid">
                         </div>
                         <div class="col-md-3">
-                           <img src="assets/img/granite/design/floor/4.jpg" alt="" onclick="display(12)" class="img-fluid">
+                           <img src="assets/img/kitchen/cabinet/4.jpg" alt="" onclick="display(12)" class="img-fluid">
                         </div>
                       </div>
                    </div>
                   </div>
-                  <!-- <div class="tab-pane" id="tab-4">
-                    <figure>
-                      <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                    </figure>
-                  </div> -->
+                  <div class="tab-pane" id="tab-4">
+                    <div class="container">
+                      <div class="row">
+                         <div class="col-md-3">
+                           <img src="assets/img/kitchen/floor/1.jpg" alt="" onclick="display(13)" class="img-fluid">
+                         </div>
+                         <div class="col-md-3">
+                           <img src="assets/img/kitchen/floor/2.jpg" alt="" onclick="display(14)" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                           <img src="assets/img/kitchen/floor/3.jpg" alt="" onclick="display(15)" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                           <img src="assets/img/kitchen/floor/4.jpg" alt="" onclick="display(16)" class="img-fluid">
+                        </div>
+                      </div>
+                   </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -327,6 +343,7 @@
   <script src="assets/js/main.js"></script>
    
   <script>
+    
   //   $('#design_1').click(function(){
   //     $.ajax({url: "image.php?design_1", success: function(result){
   //       $('div#change_image > img').remove();
@@ -335,7 +352,7 @@
   // });
 
   function display(id) {
-    $.ajax({url: "image.php?id="+ id, success: function(result){
+    $.ajax({url: "kitchen_image.php?id="+ id, success: function(result){
         $('div#change_image > img').remove();
         $("#change_image").append(result);
     }});
